@@ -1,0 +1,8 @@
+57. Write a Python program to convert hours into minutes and seconds 
+(Ex: input of hours = 6 then output will be, minutes = 360 and seconds = 21600).
+
+hours = float (input ("Enter number of hours: "))
+minutes = hours * 60
+seconds = hours * 3600
+print ("Minutes =", minutes)
+print ("Seconds =", seconds)
