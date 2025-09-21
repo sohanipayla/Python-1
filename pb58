@@ -1,0 +1,17 @@
+58. Write a Python program to find an integer exponent x 
+such that a^x = n. 
+Input: 
+a = 2: n = 1024 
+Output: 10 
+Input: 
+a = 3: n = 81 
+Output: 4
+
+import math
+a = int (input ("Enter base (a): "))
+n = int (input ("Enter number (n): "))
+x = math.log (n, a)
+if x%1==0:
+ print ("Exponent x =", int(x))
+else:
+ print ("No integer exponent exists such that", a, "^ x =", n)
